@@ -33,7 +33,7 @@ const Navbar = () => {
         <nav className='fixed top-0 z-50 w-full flex flex-col items-center justify-center'>
             <motion.div
                 layout
-                className='flex w-full items-center justify-between p-4 backdrop-blur-lg dark:shadow-gray-400 lg:m-2 lg:w-[50rem] lg:rounded-full lg:shadow-lg'
+                className='flex w-full items-center justify-between p-4 dark:bg-gray-100 backdrop-blur-lg dark:shadow-gray-400 lg:m-2 lg:w-[50rem] lg:rounded-full lg:shadow-lg'
             >
                 <img src={theme === "light" ? logo : LogoDark} alt="logo" width={100} height={52} />
 
@@ -75,8 +75,7 @@ const Navbar = () => {
                     initial={{ opacity: 0, height: 0 }}
                     animate={{ opacity: 1, height: 'auto' }}
                     transition={{ duration: 0.7 }}
-                    className='w-full backdrop-blur-lg lg:hidden mt-2'
-                >
+                    className='w-full backdrop-blur-xl dark:bg-gray-100 rounded-md lg:hidden mt-2'>
                     <div className="flex flex-col items-center gap-4 p-4">
                         {LINKS.map((link, index) => (
                             <motion.a
