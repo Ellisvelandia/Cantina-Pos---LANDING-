@@ -1,5 +1,5 @@
 import React from 'react'
-import hero from "../assets/hero.png"
+import hero from "../assets/hero.webp"
 import mission from "../assets/mission.mp4"
 import { MISSION } from '../constants'
 import { motion } from "framer-motion"

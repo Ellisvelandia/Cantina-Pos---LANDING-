@@ -1,18 +1,18 @@
-import pos1 from "../assets/pos1.jpg";
-import pos2 from "../assets/pos2.jpg";
-import pos3 from "../assets/pos3.jpg";
-import pos4 from "../assets/pos4.jpg";
-import pos5 from "../assets/pos5.jpg";
-import pos6 from "../assets/pos6.jpg";
-import pos7 from "../assets/pos7.jpg";
-import pos8 from "../assets/pos8.jpg";
-import pos9 from "../assets/pos9.jpg";
-import pos10 from "../assets/pos10.jpg";
+import pos1 from "../assets/pos1.webp";
+import pos2 from "../assets/pos2.webp";
+import pos3 from "../assets/pos3.webp";
+import pos4 from "../assets/pos4.webp";
+import pos5 from "../assets/pos5.webp";
+import pos6 from "../assets/pos6.webp";
+import pos7 from "../assets/pos7.webp";
+import pos8 from "../assets/pos8.webp";
+import pos9 from "../assets/pos9.webp";
+import pos10 from "../assets/pos10.webp";
 
 
-import management from "../assets/management.jpg";
-import sales from "../assets/sales.jpg";
-import reports from "../assets/reports.jpg";
+import management from "../assets/management.webp";
+import sales from "../assets/sales.webp";
+import reports from "../assets/reports.webp";
 
 
 import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";

@@ -35,7 +35,7 @@ const Navbar = () => {
                 layout
                 className='flex w-full items-center justify-between p-4 dark:bg-gray-100 backdrop-blur-lg dark:shadow-gray-400 lg:m-2 lg:w-[50rem] lg:rounded-full lg:shadow-lg'
             >
-                <img src={theme === "light" ? logo : LogoDark} alt="logo" width={100} height={52} />
+                <img src={theme === "light" ? logo : LogoDark} alt="logo" width={100} height={52} className='mx-2' />
 
                 <div className='hidden flex-row items-center gap-8 text-lg font-bold lg:flex'>
                     {LINKS.map((link, index) => (

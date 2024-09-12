@@ -4,7 +4,7 @@ import videoDark from "../assets/heroDark.mp4"
 import logo from "../assets/logo.png"
 import LogoDark from "../assets/LogoDark.png";
 import { ThemeContext } from '../components/ThemeContext';
-import hero from "../assets/hero.png"
+import hero from "../assets/hero.webp"
 import { motion } from "framer-motion"
 
 const HeroSection = () => {

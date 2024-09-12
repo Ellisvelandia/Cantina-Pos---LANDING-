@@ -16,7 +16,8 @@ const Services = () => {
                         <div className='w-1/3 flex-shrink-0'
 
                         >
-                            <img src={cusine.image} alt={cusine.title} className='h-auto rounded-3xl' />
+                            <img src={cusine.image} alt={cusine.title} className='h-auto rounded-3xl' loading="lazy"
+                            />
                         </div>
                         <div className='pl-8'>
                             <h3 className='text-2xl uppercase tracking-tighter'>{cusine.title}</h3>

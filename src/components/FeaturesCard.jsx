@@ -4,6 +4,9 @@ import { motion } from "framer-motion"
 const FeaturesCard = ({ project }) => {
     return (
         <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
         >
