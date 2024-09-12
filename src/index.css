@@ -5,6 +5,5 @@
 @tailwind utilities;
 
 :root {
-    font-family: "Inter", sans-serif;
-    background-color: #000000;
+    @apply bg-black font-serif
 }

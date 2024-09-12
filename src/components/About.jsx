@@ -10,7 +10,7 @@ export const About = () => {
             <h2 className='mb-8 text-center text-3xl tracking-tighter lg:text-4xl'>About us</h2>
             <div className='flex flex-wrap'>
                 <div className='w-full p-4 lg:w-1/2'>
-                    <img src={about} alt="about" className='lg:w-full' />
+                    <img src={about} alt="about" className='lg:w-full shadow-md rounded-lg shadow-slate-200' />
                 </div>
                 <div className='w-full px-2 lg:w-1/2'>
                     <motion.h2
